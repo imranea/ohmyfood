@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+    <title>ohmyfood - La palette du goût</title>
+  <link rel="icon" href="favicon.ico"><link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="wrapper">
+          <a href="./index.html" class="link-return">
+            <span class="mdi mdi-arrow-left link-return"></span>
+          </a>
+          <div class="header__top">
+            <div class="logo">
+              <img src="images/content/ohmyfood.png" alt="ohmyfood">
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="gab"></div>
+        <header class="main__header main__header--menu">
+          <div class="main__header__img">
+            <img src="images/content/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="à la française">
+          </div>
+        </header>
+        <section class="menu">
+          <header class="menu__header">
+            <h1 class="menu__title">La palette du goût</h1>
+            <label class="like" for="checkbox1">
+              <input type="checkbox" id="checkbox1" name="checkbox1">
+              <span class="mdi mdi-heart like__ico like__ico--liked"></span>
+              <span class="mdi mdi-heart-outline like__ico"></span>
+            </label>
+          </header>
+          <div class="menu__step">
+            <p class="menu__step__title">Entrées</p>
+            <div class="choices">
+              <label class="choices__item delay-1" for="starter1">
+                <input type="radio" id="starter1" name="starter">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Fricassée d'escargot
+                    <span>Au piment d'Espelette </span>
+                  </span>
+                  <span class="choices__price">25€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+              <label class="choices__item delay-2" for="starter2">
+                <input type="radio" id="starter2" name="starter">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Foie gras de canard mi-cuit
+                    <span>Et ses copeaux de truffe noire</span>
+                  </span>
+                  <span class="choices__price">35€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+              <label class="choices__item delay-3" for="starter3">
+                <input type="radio" id="starter3" name="starter">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Oeuf au plat
+                    <span>Assaisonné à la truffe sur lit de caviar</span>
+                  </span>
+                  <span class="choices__price">20€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="menu__step">
+            <p class="menu__step__title">Plats</p>
+            <div class="choices">
+              <label class="choices__item delay-4" for="dish1">
+                <input type="radio" id="dish1" name="dish">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Filet de boeuf aux herbes
+                    <span>Accompagné de sa ribambelle de légumes</span>
+                  </span>
+                  <span class="choices__price">40€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+              <label class="choices__item delay-5" for="dish2">
+                <input type="radio" id="dish2" name="dish">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Parmentier de queue de boeuf
+                    <span>À la truffe noire sur sa purée de panais</span>
+                  </span>
+                  <span class="choices__price">35€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+              <label class="choices__item delay-6" for="dish3">
+                <input type="radio" id="dish3" name="dish">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Filet de turbot
+                    <span>Aux agrumes</span>
+                  </span>
+                  <span class="choices__price">44€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="menu__step">
+            <p class="menu__step__title">Desserts</p>
+            <div class="choices">
+              <label class="choices__item delay-7" for="dessert1">
+                <input type="radio" id="dessert1" name="dessert">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Paris-Brest
+                    <span>Revisité</span>
+                  </span>
+                  <span class="choices__price">18€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+              <label class="choices__item delay-8" for="dessert2">
+                <input type="radio" id="dessert2" name="dessert">
+                <span class="choices__content">
+                  <span class="choices__title" title="Macaron au chocolat d'exception">
+                    Macaron au chocolat d'exception
+                    <span>Et glace à la vanille de Madagascar</span>
+                  </span>
+                  <span class="choices__price">22€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+              <label class="choices__item delay-9" for="dessert3">
+                <input type="radio" id="dessert3" name="dessert">
+                <span class="choices__content">
+                  <span class="choices__title">
+                    Mousse au chocolat
+                    <span>Au piment d'Espelette et à la truffe noire</span>
+                  </span>
+                  <span class="choices__price">23€</span>
+                  <span class="choices__check">
+                    <span class="mdi mdi-check-bold"></span>
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="order">
+            <a href="#" class="btn-primary">
+              Commander
+            </a>
+          </div>
+        </section>
+        <footer class="footer">
+          <ul>
+            <li>
+              <div class="logo">
+                <img src="images/content/ohmyfood@2x.svg" alt="ohmyfood">
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                <span class="mdi mdi-silverware-fork-knife"></span>
+                Proposer un restaurant
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="mdi mdi-handshake-outline"></span>
+                Devenir partenaire
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Mentions légales
+              </a>
+            </li>
+            <li>
+              <a href="mailto:contact@ohmyfood.com">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
